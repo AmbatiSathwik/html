@@ -7,8 +7,54 @@ body {
   color: white;
   padding: 20px;
   border: 5px solid black;
-  margin: 20px 0px;
 }
 #plans h1 {
-  color: green;
+  color: rgb(12, 214, 12);
+}
+
+.main-header {
+  background: rgb(12, 214, 12);
+  padding: 10px 20px;
+}
+
+.navbar-li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.navbar-li a {
+  text-decoration: none;
+  color: rgb(83, 78, 78);
+  font-weight: bold;
+}
+
+.navbar-li a:hover,
+.navbar-li a:active {
+  color: rgb(230, 99, 175);
+  text-decoration: underline;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header div a {
+  color: rgb(2, 51, 2);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 58px);
+  vertical-align: middle;
+}
+
+.navbar-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
