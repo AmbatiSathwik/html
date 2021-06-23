@@ -29,10 +29,5 @@ body {
 }
 
 .parent .child-1 {
-  position: fixed;
-  box-sizing: border-box;
-  top: 0px;
-  left: 0px;
-  margin: 0px;
-  width: 100%;
+  position: relative;
 }
